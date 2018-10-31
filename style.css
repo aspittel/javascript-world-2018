@@ -50,12 +50,17 @@ h1 {
 }
 
 
+img {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 70px;
+}
 .step {
     position: relative;
     display: block;
 
     width: 900px;
-    height: 700px;
+    /* height: 700px; */
     margin: 20px auto;
     padding: 40px 60px;
 
@@ -260,13 +265,3 @@ body.impress-mouse-timeout {
 .impress-enabled #impress                 { pointer-events: auto } */
 .impress-enabled #impress-toolbar         { pointer-events: auto }
 .impress-enabled #impress-console-button  { pointer-events: auto }
-
-
-rainbow-text {
-    text-align: center;
-}
-
-.iframe {
-    text-align:center;
-    width:100%;
-}
